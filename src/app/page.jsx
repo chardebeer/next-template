@@ -3,6 +3,7 @@
 import { Chip } from "@nextui-org/chip";
 import { Button } from "@nextui-org/button";
 import { motion } from "framer-motion";
+import { Page } from "../stories/Page";
 import {
   Modal,
   ModalContent,
@@ -126,6 +127,7 @@ export default function Home() {
           <div className="w-12 h-[600px] bg-light blur-[100px] rounded-3xl max-sm:rotate-[15deg] sm:rotate-[35deg]"></div>
         </div>
       </motion.div>
+      <Page/>
     </div>
   );
 }
